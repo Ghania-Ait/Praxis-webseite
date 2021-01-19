@@ -53,7 +53,27 @@
         }
         .flex2-item-rechts{
             display: flex;
-            justify-content: space-between;
+            justify-content:space-between;
+        }
+        body{
+            background-color: rgb(212, 230, 230);
+        }
+        #textarea{
+            resize: vertical;
+            min-height: 120px;
+
+        }
+        .label-1{
+            margin: 20px 0;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+           
+        }
+        .flex-test{
+            display: flex;
+            align-items:center;
+            justify-content:space-around;
         }
     </style>
 </head>
@@ -75,7 +95,6 @@
                     <li> <a href="index.html">Home</a></li>
                     <li> <a href="Beratung.html">Beratung</a></li>
                     <Li> <a href="Angebot.html">Angebot</a></Li>
-                    <li> <a href="Links.html">Links</a></li>
                     <li> <a href="formular.html">Kontakt</a> </li>
                 </ul>
             </nav>
@@ -93,22 +112,23 @@
             <ul>
                 <li>
                     <label class="label">Vorname*</label>
-                    <input type="number" placeholder="">
+                    <input type="text" placeholder="">
                 </li>
                 <br>
                 <li>
                     <label class="label">Nachname*</label>
-                    <input type="number" placeholder="">
+                    <input type="text" placeholder="">
                 </li>
                 <br>
                 <li>
                     <label class="label">Email*</label>
-                    <input type="number" placeholder="">
+                    <input type="email" placeholder="">
                 </li>
+                
                 <br>
-                <li>
-                  <label class="label">Ihre Anliegen</label>
-                  <textarea>Ihre Nachricht!</textarea>
+                <li class="flex-test">
+                  <label class="label-1 label">Ihre Anliegen</label>
+                  <textarea id="textarea">Ihre Nachricht!</textarea>
                 
                 </li>
             </ul>
@@ -118,8 +138,8 @@
             </form>
         </div>
         <div class="flex2-item-rechts">
-            <a href="https://goo.gl/maps/UiWpeYPHx5gaYmZU6">Google Map</a>
-            <img src="https://goo.gl/maps/UiWpeYPHx5gaYmZU6">
+            <a href="https://goo.gl/maps/UiWpeYPHx5gaYmZU6">zu Google Map</a>
+            <img src="image/googlemap.jpg" alt="google Map">
         </div>
 
     </div>
