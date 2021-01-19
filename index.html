@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            height: auto;
+        }
+        #img-1{
+            border-radius: 50%;
+        }
+        #img-1:hover{
+            width: 300px;
+            height: auto ;
+            border-radius: 100%;
+        }
+        #img-2{
+            width:100%;
+            height: auto ;
+           
+            }
+       
+        .flex{
+            display: flex;
+            justify-content: center;
+            background-color: teal;
+            font-family:serif;
+            
+        }
+        .flex-2{
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            background-color: teal;
+        }
+        .sub-flex-links{
+            display: flex;
+            justify-content: flex-start;
+            letter-spacing: 5px;
+            font-size: 13px;
+        }
+        .flex-item-links{
+            flex:1;
+            color: white;
+        }
+        .sub-flex-rechts{
+            display: flex;   
+        
+        }
+       
+        
+        
+        .flex-item-rechts{
+           display: flex;
+            color:teal;
+            justify-content: center;  
+            align-self: flex-end;
+        }
+
+        .flex-item-rechts li{
+            display: inline-block;
+
+        }
+       .flex-item-rechts ul{
+            background-color:white;
+            padding: 25px;
+            border-radius: 30px;
+            font-size: 20px;
+            
+        }
+        #section-2 ul{
+            color: white;
+            list-style-type:square;
+            font-size: 20px;
+            font-family: serif;
+            font-weight: bold;
+        }
+        .nav-ul li{
+            margin: 0 5px;
+        
+        }
+        first-ul:hover{
+            background: teal;
+        }
+        
+
+        
+        #but-section-2{
+            background-color: rgb(36, 66, 66);
+            padding: 15px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 10px;
+            border: 0;
+            font-family: serif;
+            font-weight: bolder;
+
+        }
+        #but-section-2:hover{
+            width: 120%;
+            height: auto;  
+            
+        }
+        .sub-flex-item-links-2{
+            list-style-image: url(); 
+        }
+        #anim{
+            color: teal;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <div class="flex" id="section-1">
+        <div class="flex-item-links">
+            <div class="sub-flex-links" >
+                <div class="sub-flex-item-links">
+                    <img id="img-1" src="image/carola.jpg" alt="Carola Rupp"> 
+                </div>
+                <div class="sub-flex-item-links">
+                    <h2>ZERTEFIERTE HEILPÄDAGOGISCHE PRAXIS</h2>
+                    <h3> Carola Rupp</h3> 
+                </div>
+              </div>
+            
+            
+          </div>
+        
+          <div class="flex-item-rechts" id="section-3">
+            <nav class="sub-flex-rechts">
+                <ul class="nav-ul">
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="Beratung.html">Beratung</a></li>
+                    <Li> <a href="Information.html">Angebot</a></Li>
+                    <li> <a href="Links.html">Links</a></li>
+                    <li> <a href="formular.html">Kontakt</a> </li>
+                </ul>
+            </nav>
+        </div>
+      </div>
+
+    </div>
+      <div>
+        <img id="img-2" src="image/therapie.jpg">
+        <p id="anim">
+             <marquee width="100%">Bewegen --->>Wahrnehmen--->>Genießen--->>
+                Selbstbewusst ein lang... </marquee>
+             </p>
+      </div>
+
+     <div class="flex-2" id="section-2">
+         <div class="flex-item-links-2">
+             <div class="sub-flex-item-links-2"></div>
+             <h2>Was bieten wir an :</h2>
+             <ul>
+                <li>Frühförderung für Kleinkinder.</li>
+                <br>
+                <li> Einzelförder Begleitung für Kinder und Jugendliche.</li>
+                <br>
+                <li> Eltern/Kind Kurs.</li>
+             </ul>
+            
+            
+            </div>
+            <div class="flex-item-rechts-2">
+                <div class="sub-item-rechts-2">
+                    <button id="but-section-2">
+                        
+                    <a href="Information.html">Für mehr Informationnen hier Klicken</a>
+                    </button>
+                </div>
+            </div>
+
+     </div>
+    
+</body>
+</html>

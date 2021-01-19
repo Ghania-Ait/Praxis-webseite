@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 400px;
+        }
+        .flex-1{
+            display: flex;
+            justify-content: space-between;
+            border-top: teal;
+            background-color: teal;
+            color: white;
+            border-radius: 10px;
+             }
+             .flex-2{
+                 display: flex;
+                 justify-content: space-between;
+                 border: lightseagreen;
+                 border-style: dotted;
+             }
+        .flex1-item-links{
+            margin-left: 10px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        p{
+            font-size: 30px;
+            font-family: serif;
+            font-weight: bold;
+        }
+        .label{
+            color: teal;
+            font-size: 20px;
+            font-family: serif;
+            font-weight: bold;
+        }
+        .flex-item-rechts ul{
+            
+            background-color:white;
+            padding: 25px;
+            border-radius: 30px;
+            font-size: 20px;
+            
+         }
+         .flex-item-rechts li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .flex2-item-rechts{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-1" id="section-1" >
+        <div class="flex1-item-links">
+            <h1> DIAGNOSTIK</h1>
+            <h1> TERAPIE</h1>
+            <h1> BERATUNG</h1>
+        </div>
+        <div class="flex-item-rechts">
+            <img src="image/praxis2.jpg" alt="praxis">
+        </div>
+
+
+        <div class="flex-item-rechts" >
+            <nav class="sub-flex-rechts">
+                <ul class="nav-ul">
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="Beratung.html">Beratung</a></li>
+                    <Li> <a href="Angebot.html">Angebot</a></Li>
+                    <li> <a href="Links.html">Links</a></li>
+                    <li> <a href="formular.html">Kontakt</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div>
+        <P>Kontaktformular</P>
+    </div>
+    <div class="flex-2" id="section-2">
+        <div class="flex2-item-links">
+            <form>
+                <div>
+        
+            <ul>
+                <li>
+                    <label class="label">Vorname*</label>
+                    <input type="number" placeholder="">
+                </li>
+                <br>
+                <li>
+                    <label class="label">Nachname*</label>
+                    <input type="number" placeholder="">
+                </li>
+                <br>
+                <li>
+                    <label class="label">Email*</label>
+                    <input type="number" placeholder="">
+                </li>
+                <br>
+                <li>
+                  <label class="label">Ihre Anliegen</label>
+                  <textarea>Ihre Nachricht!</textarea>
+                
+                </li>
+            </ul>
+                </div>
+
+                
+            </form>
+        </div>
+        <div class="flex2-item-rechts">
+            <a href="https://goo.gl/maps/UiWpeYPHx5gaYmZU6">Google Map</a>
+            <img src="https://goo.gl/maps/UiWpeYPHx5gaYmZU6">
+        </div>
+
+    </div>
+</body>
+</html>
